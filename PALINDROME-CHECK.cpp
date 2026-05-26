@@ -34,5 +34,4 @@ main(){
 		printf("\n Number is not Palindrome");
 	}
 
-	printf("\n String palindrome can also be checked by comparing characters from both ends.");
 }
