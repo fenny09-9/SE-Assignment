@@ -20,6 +20,7 @@ main(){
 	// Iterative factorial
 	for(i=1;i<=num;i++){
 		fact = fact * i;
+	
 	}
 
 	printf("\n Factorial using Iterative = %d",fact);
@@ -27,6 +28,4 @@ main(){
 	// Recursive factorial
 	printf("\n Factorial using Recursive = %d",recfact(num));
 
-	printf("\n\n Iterative method is faster for large numbers.");
-	printf("\n Recursive method uses more memory because of function calls.");
 }
