@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+ 
 // Recursive function
 int recfact(int n){
 
