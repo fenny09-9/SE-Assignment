@@ -1,0 +1,13 @@
+f = open("playlist.txt", "w")
+f.write("Blinding Lights\n")
+f.write("Levitating\n")
+f.write("Peaches\n")
+f.write("Save Your Tears\n")
+f.close()
+
+f = open("playlist.txt", "r")
+f.readline()
+f.readline()
+song = f.readline()
+print("Third song:", song.strip())
+f.close()
